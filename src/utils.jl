@@ -42,3 +42,26 @@ function basalarea(d::Length)
     return uconvert(u"m^2", g)
   end
 end
+
+"""
+    basalarea(d::Real)
+
+Calculates the basal area (g) of a tree given its diameter in centimeters.
+
+# Description
+This function computes the basal area of a tree, which is the cross-sectional area of the tree trunk at breast height (usually measured at 1.3 meters above ground). Basal area is a critical parameter in forest mensuration, used for estimating stand density, timber volume, and assessing competition among trees in a forest stand.
+
+# Arguments
+- `d::Real`: The diameter at breast height of the tree in **centimeters**. The diameter must be a positive value.
+
+# Returns
+- `Float64`: The basal area of the tree in **square meters**.
+
+# Example
+```julia-repl
+# Calculate the basal area for a tree with a diameter of 30 cm
+julia> basalarea(30)
+0.07068583470577035 m^2
+```
+"""
+basalarea(d::Real) = basalarea(d * u"cm")
