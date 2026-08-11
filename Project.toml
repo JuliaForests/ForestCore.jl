@@ -1,6 +1,6 @@
 name = "ForestCore"
 uuid = "c3d06f35-1cec-4a06-8b44-87c7409765a8"
-version = "1.0.0-DEV"
+version = "1.0.0"
 authors = ["marcosdanieldasilva <marcosdasilva@5a.tec.br> and contributors"]
 
 [deps]
