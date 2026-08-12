@@ -1,8 +1,8 @@
-using ForestCore
+using ForestFoundations
 using DataFrames
 using Test
 
-@testset "ForestCore.jl" begin
+@testset "ForestFoundations.jl" begin
     @testset "Basal Area Tests" begin
       dStandard = 30.0
       expectedBasalArea = 0.07068583470577035

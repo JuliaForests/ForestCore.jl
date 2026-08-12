@@ -1,4 +1,4 @@
-module ForestCore
+module ForestFoundations
 
 using DataFrames, IrrationalConstants, Unitful
 
