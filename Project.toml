@@ -1,6 +1,6 @@
 name = "ForestFoundations"
 uuid = "c3d06f35-1cec-4a06-8b44-87c7409765a8"
-version = "1.0.0"
+version = "1.1.0-DEV"
 authors = ["marcosdanieldasilva <marcosdasilva@5a.tec.br> and contributors"]
 
 [deps]
